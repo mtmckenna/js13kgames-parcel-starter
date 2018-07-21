@@ -15,6 +15,6 @@ Start the Parcel build server at `http://localhost:1234`.
 
 Build, minify, and inline the game to `./dist/inlined/index.html`.
 
-### `yarn run build-zipped`
+### `yarn run party`
 
-Build, minify, inline, and zip the game to `./dist/zipped/game.zip`.
+Build, minify, inline, and zip the game to `./dist/zipped/game.zip`. This command finishes with a log message that says if the zip file is under 13k.

@@ -7,14 +7,14 @@ The commands assume [Yarn](https://yarnpkg.com/en/docs/install) is installed.
 
 ## Commands
 
-### `yarn run serve`
+### `yarn start`
 
 Start the Parcel build server at `http://localhost:1234`.
 
-### `yarn run build`
+### `yarn build`
 
 Build, minify, and inline the game to `./dist/inlined/index.html`.
 
-### `yarn run party`
+### `yarn party`
 
 Build, minify, inline, and zip the game to `./dist/zipped/game.zip`. This command finishes with a log message that says if the zip file is under 13k.
